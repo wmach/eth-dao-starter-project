@@ -8,7 +8,7 @@ const editionDrop = sdk.getContract("0x0166614A5F65A7F1930c7Ef584305f1c071A275e"
   try {
     await (await editionDrop).createBatch([
       {
-        name: "Member's Limited Sauna Hat",
+        name: "Member's Limited CF2 Hat",
         description:
           "code for free にアクセスすることができる限定アイテムです",
         image: readFileSync("src/scripts/assets/cf2logo.svg"),
